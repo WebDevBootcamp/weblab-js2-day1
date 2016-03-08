@@ -41,7 +41,7 @@ o2.name = "Mr. " + o2.name + " jones";
 var myArray = ["Apples", "Oranges", "Kiwi"]
 
 
-console.log(myArray);
+console.log(myArray[0]);
 
 
 
