@@ -10,9 +10,15 @@ app.get('/', function (req, res) {
     properties: properties,
     pageTitle: "Properties index!"
   }
+  var html ="<ul>";
 
 
-  res.render('index',{data: data});
+
+
+  properties.forEach(function(property){
+    html += "<li>"+ proprety.ownerName +"</li>";
+  });
+  //res.render('index',{data: data});
 });
 
 app.listen(3000, function () {

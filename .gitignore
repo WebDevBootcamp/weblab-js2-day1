@@ -1,3 +1,6 @@
+
+
+
 # Logs
 logs
 *.log
@@ -16,6 +19,9 @@ coverage
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
+
+ignoreme.txt
+
 
 # node-waf configuration
 .lock-wscript
