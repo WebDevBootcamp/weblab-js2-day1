@@ -1,12 +1,11 @@
 <h1><%= data.pageTitle %></h1>
 
-
-<%
-  console.log('hello');
-
-%>
-
-
+<ul>
+<% data.properties.forEach(function(property, index){ %>
+    <li><%= property.ownerName %></li>
+<% }); %>
+</ul>
+<%= %>
 <script>
   console.log('hello')
 
