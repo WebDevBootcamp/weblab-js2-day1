@@ -29,7 +29,8 @@ var o2 = {
   sayHello: function(){
     console.log("hello, object method!!");
 
-  }
+  },
+  fruit: ["Apples", "Oranges", "Kiwi"]
 };
 
 o2.sayHello();
@@ -38,14 +39,11 @@ o2.age +=5;
 
 o2.name = "Mr. " + o2.name + " jones";
 
-var myArray = ["Apples", "Oranges", "Kiwi"]
-
+var myArray = ["Apples", "Oranges", "Kiwi"];
 
 console.log(myArray[0]);
-
-
-
-
+console.log(o2.fruit[0]);
 
 console.log(o);
+
 console.log(o2);
